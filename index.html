@@ -3,6 +3,23 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
+    <div id="header">
+        <h1>Matric/Imperial Unit Conversion</h1>
+        <input type="number" id="input-number" placeholder="Enter Value">
+        <select id="unit-type">
+            <option value="none">None</option>
+            <option value="Mft">Meters to Feet</option>
+            <option value="ftM">Feet to Meters</option>
+            <option value="Kglbs">Kilograms to Pounds</option>
+            <option value="lbsKg">Pounds to Kilograms</option>
+            <option value="CF">Celsius to Fahrenheit</option>
+            <option value="FC">Fahrenheit to Celsius</option>
+            <option value="Lgal">Liters to Gallons</option>
+            <option value="galL">Gallons to Liters</option>
+        </select>
+        <button id="convert-btn">Convert</button>
+    </div>
+    <div id="show-result"> 51</div>
         <script src="index.js"></script>
     </body>
 </html>
